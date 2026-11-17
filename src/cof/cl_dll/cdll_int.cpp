@@ -22,11 +22,11 @@
 #include "cl_util.h"
 #include "netadr.h"
 #include "parsemsg.h"
+#include "cof_inventory_client.h"
 
 #if USE_VGUI
 #include "vgui_int.h"
 #include "vgui_TeamFortressViewport.h"
-#include "cof_inventory_client.h"
 #endif
 
 #if GOLDSOURCE_SUPPORT && (XASH_WIN32 || XASH_LINUX || XASH_APPLE) && XASH_X86
